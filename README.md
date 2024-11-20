@@ -25,7 +25,48 @@ The dataset used in this project is `city_day.csv`, which contains:
 ## Installation ⚙️
 Follow these steps to set up the project:
 
+
 1. **Clone the Repository**:
    ```bash
    git clone https://github.com/yourusername/AQI_Prediction.git
    cd AQI_Prediction
+
+**Install Required Libraries**:  
+Ensure you have Python 3.8+ installed. Install dependencies using:  
+```bash
+pip install -r requirements.txt
+Run the Notebook:
+Open the Jupyter Notebook and run all cells:
+
+bash
+Copy code
+jupyter notebook Project_PEC_AIML_Final_Submission.ipynb
+Methodology 📈
+Data Loading:
+The dataset is loaded using Pandas and cleaned for analysis.
+
+Preprocessing:
+
+Missing values are handled using SimpleImputer.
+Features are encoded using OneHotEncoder and LabelEncoder.
+Feature Engineering:
+Feature selection and transformation techniques are applied for compatibility with machine learning models.
+
+Model Training:
+
+Models like SVM and Logistic Regression are trained and evaluated.
+Results Visualization:
+Key insights are plotted using Matplotlib for better interpretability.
+
+Key Results 🎯
+Successfully predicted AQI with high accuracy.
+Enhanced model performance through advanced preprocessing and feature engineering.
+How to Contribute 🤝
+Fork the repository.
+Create a new branch for your feature or bug fix.
+Submit a pull request with a detailed explanation.
+License 📜
+This project is licensed under the MIT License. See the LICENSE file for details.
+
+Contact 📬
+If you have any questions or feedback, feel free to reach out at [1181hema@gmail.com].
