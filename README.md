@@ -22,29 +22,6 @@ The dataset used in this project is `city_day.csv`, which contains:
 
 ---
 
-## Installation ⚙️
-Follow these steps to set up the project:
-
-
-1. **Clone the Repository**:
-   ```bash
-   git clone https://github.com/yourusername/AQI_Prediction.git
-   cd AQI_Prediction
-
-**Install Required Libraries**:  
-Ensure you have Python 3.8+ installed. Install dependencies using:  
-```bash
-pip install -r requirements.txt
-Run the Notebook:
-Open the Jupyter Notebook and run all cells:
-
-bash
-Copy code
-jupyter notebook Project_PEC_AIML_Final_Submission.ipynb
-
----
-
-
 ## Methodology 📈
 
 ### Data Loading:
@@ -84,4 +61,4 @@ This project is licensed under the MIT License. See the `LICENSE` file for detai
 ---
 
 ## Contact 📬
-If you have any questions or feedback, feel free to reach out at [1181hema@gmail.com].
+If you have any questions or feedback, feel free to reach out at **[1181hema@gmail.com](mailto:1181hema@gmail.com)**.
