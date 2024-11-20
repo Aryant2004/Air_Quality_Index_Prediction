@@ -41,32 +41,44 @@ Open the Jupyter Notebook and run all cells:
 bash
 Copy code
 jupyter notebook Project_PEC_AIML_Final_Submission.ipynb
-Methodology 📈
-Data Loading:
+
+## Methodology 📈
+
+### Data Loading:
 The dataset is loaded using Pandas and cleaned for analysis.
 
-Preprocessing:
+### Preprocessing:
+- Missing values are handled using `SimpleImputer`.
+- Features are encoded using `OneHotEncoder` and `LabelEncoder`.
 
-Missing values are handled using SimpleImputer.
-Features are encoded using OneHotEncoder and LabelEncoder.
-Feature Engineering:
+### Feature Engineering:
 Feature selection and transformation techniques are applied for compatibility with machine learning models.
 
-Model Training:
+### Model Training:
+Models like **SVM** and **Logistic Regression** are trained and evaluated.
 
-Models like SVM and Logistic Regression are trained and evaluated.
-Results Visualization:
+### Results Visualization:
 Key insights are plotted using Matplotlib for better interpretability.
 
-Key Results 🎯
-Successfully predicted AQI with high accuracy.
-Enhanced model performance through advanced preprocessing and feature engineering.
-How to Contribute 🤝
-Fork the repository.
-Create a new branch for your feature or bug fix.
-Submit a pull request with a detailed explanation.
-License 📜
-This project is licensed under the MIT License. See the LICENSE file for details.
+---
 
-Contact 📬
+## Key Results 🎯
+- Successfully predicted AQI with high accuracy.
+- Enhanced model performance through advanced preprocessing and feature engineering.
+
+---
+
+## How to Contribute 🤝
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Submit a pull request with a detailed explanation.
+
+---
+
+## License 📜
+This project is licensed under the MIT License. See the `LICENSE` file for details.
+
+---
+
+## Contact 📬
 If you have any questions or feedback, feel free to reach out at [1181hema@gmail.com].
